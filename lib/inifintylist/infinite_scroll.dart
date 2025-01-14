@@ -1,5 +1,3 @@
-
-
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +9,7 @@ class BookRepo {
     // print('Response Type: ${response.runtimeType}');
     return response!.map((e) => Book.fromJson(e)).toList();
   }
-} /
+} 
 
 
 class ApiService {
